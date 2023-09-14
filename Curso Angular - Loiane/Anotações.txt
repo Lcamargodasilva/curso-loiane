@@ -1,2 +1,0 @@
-parei na aula 53 rotas: definindo e estraindo parâmetro
-obs: deu erro no código, tratar
