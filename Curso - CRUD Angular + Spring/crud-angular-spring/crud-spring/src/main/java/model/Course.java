@@ -11,13 +11,21 @@ import lombok.Data;
 @Entity
 public class Course {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
-	
-	@Column(length = 200, nullable = false)
-	private String name;
-	
-	@Column(length = 10, nullable = false)
-	private String category;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
+    @Column(length = 200, nullable = false)
+    private String name;
+
+    @Column(length = 20, nullable = false)
+    private String category;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 }
