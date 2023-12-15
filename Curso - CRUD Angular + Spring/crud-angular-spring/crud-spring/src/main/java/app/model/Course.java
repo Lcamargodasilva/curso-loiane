@@ -23,7 +23,7 @@ public class Course {
     private String category;
 
     public Course() {
-        // Default constructor required by JPA
+
     }
 
     public Course(String name, String category) {
@@ -31,7 +31,6 @@ public class Course {
         this.category = category;
     }
 
-    // Getters and setters
     public Long getId() {
         return id;
     }
