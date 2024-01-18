@@ -39,8 +39,4 @@ export class CoursesComponent {
       data: errorMsg
     });
   }
-
-  onAdd(){
-    this.router.navigate(['new'], {relativeTo: this.route});
-  }
 }
